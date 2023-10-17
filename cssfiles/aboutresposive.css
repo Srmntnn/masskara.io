@@ -1,0 +1,134 @@
+@media (max-width: 1024px) {
+    .about-masskara-container {
+        margin-top: 128px;
+        gap: 16px;
+    }
+
+    .about-masskara-title p {
+        font-size: var(--H4-laptop);
+    }
+
+    .about-masskara-title h1 {
+        font-size: var(--H2-laptop);
+    }
+
+    .about-masskara-content {
+        gap: 28px;
+        font-size: var(--H6-laptop);
+    }
+
+    .about-title h1{
+        font-size: var(--H4-laptop);
+    }
+
+    .about-info p {
+        font-size: var(--H6-laptop);
+    }
+
+    .highlight-wrapper {
+        margin-top: 32px;
+    }
+
+    .highlight-title {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .highlight-info h1 {
+        font-size: var(--H5-laptop);
+    }
+
+    .highlight-info p {
+        font-size: var(--H6-laptop);
+    }
+
+    .highlight-info p {
+        font-size: var(--H6-laptop);
+    }
+    
+    .extra-info {
+        font-size: var(--H6-laptop);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .about-masskara-container {
+        margin-top: 96px;
+        gap: 16px;
+    }
+
+    .about-masskara-title p {
+        font-size: var(--H4-mobile);
+    }
+
+    .about-masskara-title h1 {
+        font-size: var(--H2-mobile);
+    }
+
+    .about-masskara-content {
+        gap: 16px;
+        font-size: 0.9rem;
+    }
+
+    .about-info p {
+        font-size: 0.9rem;
+    }
+
+    .logo-big {
+        display: flex;
+        justify-content: center;
+        border-radius: 16px;
+        max-width: 200px;
+        width: 100%;
+        margin: 64px auto;
+    }
+
+    .highlight {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 32px;
+     }
+
+    .highlight-title {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .colurful-mask, 
+    .vibrant-street-dancing,
+    .festive-atmosphere {
+        padding: 32px 16px;
+    }
+
+    .colurful-mask p:nth-child(3) {
+        font-size: 0.9rem;
+    }
+
+    /*-------------------------*/
+
+    .highlights-of-masskara {
+        margin-top: 64px;
+    }
+
+    .slogan {
+        font-size: 0.9rem;
+    }
+
+    .highlight-info p {
+        font-size: 0.9rem;
+    }
+    
+    .extra-info {
+        font-size: 0.9rem;
+    }
+
+    .highlight-info  {
+        gap: 8px;
+    }
+
+    .highlight-info h1  {
+        font-size: 1.2rem;
+    }
+}
+

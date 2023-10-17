@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masskara | Attractions</title>
+    <link rel = "icon" href = "../Resources/Screenshot_2023-10-15_144016-removebg-preview.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cssfiles/globalstyles.css">
+    <link rel="stylesheet" href="../cssfiles/header.css">
+    <link rel="stylesheet" href="../cssfiles/responsive.css">
+    <link rel="stylesheet" href="../cssfiles/footer.css">
+    <link rel="stylesheet" href="../cssfiles/attractions.css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="/index.html"><img class="logo-img" src="../Resources/Screenshot_2023-10-15_144016-removebg-preview.png" alt="Logo"></a>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="attraction.html">Attractions</a></li>
+                    <li><a href="delicacies.html">Delicacies</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav id="hamburger-nav" class="ham-nav">
+            <div class="logo">
+                <img class="logo-img" src="../Resources/Screenshot_2023-10-15_144016-removebg-preview.png" alt="Logo">
+            </div>
+            <div class="hamburger-menu" >
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="menu-links">
+                <li><a href="/index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="attraction.html" onclick="toggleMenu()">Attractions</a></li>
+                <li><a href="delicacies.html" onclick="toggleMenu()">Delicacies</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="attractions-wrapper">
+                <div class="bacolod-title">
+                    <p>Tourist Attractions in</p>
+                    <h1>Bacolod City</h1>
+                    <div class="line"></div>
+                </div>
+                <p class="attraction-slogan">
+                    Explore Bacolod City and find out why it’s called the City of Smiles. Discover the must-visit tourist spots and dishes you shouldn’t miss. 
+                    Read on to find out everything you need to know when planning a trip to this destination.
+                </p>
+
+                <div class="attractions-grid">
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/Ruins.jpg" alt="">
+                            <p>
+                                Bacolod is the Sugar Capital of the country, and it was how the people of old here gained wealth. A remnant of this time is The Ruins, a structure that was once the mansion of Don Mariano Ledesma Lacson, a sugar baron. 
+    
+                                This is one of the top tourist spots in Bacolod. It has a beautiful architecture still visible to this day, but it was burned down during World War II. 
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">The Ruins</h1>
+                            <p>Historical Landmark</p>
+                        </div>  
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/San sebastian.jpg" alt="">
+                            <p>
+                                This is a structure that was opened to the public in 1882, and now holds the Bishop’s Palace within its grounds. 
+                                It has an elegant architecture that harkens back to the Spanish times and is considered an important historical marker by none other than the Philippine Historical Committee.
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">San Sebastian Cathedral</h1>
+                            <p>Catholic Cathedral</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/Lagoon park.jpg" alt="">
+                            <p>
+                                Provincial Capitol Lagoon operated by the Negros Occidental Provincial Government is a pit-stop of city tours in Bacolod City. This Capitol Park and lagoon is located in a three-hectare land area in Lacson Street, Bacolod City.
+                                With its vast open area, locals and tourists love visiting the capitol park to jog, exercise and simply stroll. Families also hold picnics at the park especially during weekends and holidays.
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">Capitol Park and Lagoon</h1>
+                            <p>Park</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/2022-11-28.jpg" alt="">
+                            <p>
+                                Bacolod Plaza is one of the famous landmarks of Bacolod City as it commemorates the day when the Spanish surrendered Negros Island to the Negros Revolutionaries on November 6, 1898, giving it the official name of Plaza del 6 de Noviembre. 
+                                The plaza is home to four circular fountains scattered around the park, along with a gazebo at the center where performances are held during festivals or events.
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">Bacolod Public Plaza</h1>
+                            <p>Park</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/Negros Museum.jpg" alt="">
+                            <p>
+                                Originally the Negros museum started its construction from 1987 at the Provisional Capitol Building, which was inaugurated on the 16th of March, 1996. 
+                                Along with the antique ancient artifacts, the museum was filled with the recent contemporary works of local artists representing the stories describing Negros Islands and the events that occurred during their times.
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">The Negros Museum</h1>
+                            <p>Museum</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/NGC.jpg" alt="">
+                            <p>
+                                The New Government Center or the NGC is now one of the new landmarks of Bacolod City.  It stands on a 5 hectare lot donated by Fernando F. Gonzaga, Inc. and Angela Estate, Inc.  Inaugurated in July 2010, it replaced the old City Hall at Araneta-Luriaga Sreets.  It costed the City and its people almost 400 million to build this new seat of power.
+                                Since the start of operation of the NGC, it has attracted business and trade  in the surrounding area. 
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">Bacolod New Government Center</h1>
+                            <p>City Park</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/Bacolod Ecopark.jpg" alt="">
+                            <p>
+                                Negros Forest Park has been the jewel in the crown of local wildlife conservation for over 20 years. Formerly under the management of Negros Forest and Ecological Foundation Inc., 
+                                this conservation center has been holding key breeding populations of some of Negros’ most endangered species, including the West Visayan Big 5. 
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">The Negros Forest Eco Park</h1>
+                            <p>Not-Profit Organization</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/Glass museum.jpg" alt="">
+                            <p>
+                                Located at Punta Taytay, Sum-ag, Bacolod, Negros Occidental, the vintage glass museum has been one of the places that every traveler should not miss. 
+                                Aside from the fact that the province is gifted with beautiful places to visit, this glass museum is indeed one of a kind. 
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">Laguerta Vintage Glasses Museum</h1>
+                            <p>History Museum</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/SM.jpg" alt="">
+                            <p>
+                                SM City Bacolod is a supermall located along Rizal Street, Reclamation Area, Bacolod, Negros Occidental, Philippines. SM City Bacolod is the 29th supermall of SM Prime Holdings, the 1st SM supermall in Negros Island Region and the 3rd in the Visayas. It opened on March 1, 2007 and currently has a total land area of 161,096.60 square metres (1,734,029.4 sq ft) and a total floor area of 133,894 square metres (1,441,220 sq ft).
+                                SM City Bacolod is currently undergoing renovation and expansion that will be completed in phases.
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">SM City Bacolod</h1>
+                            <p>Shopping Mall</p>
+                        </div>
+                    </div>
+
+                    <div class="attractions-container">
+                        <div class="attractions-grid-wrapper">
+                            <img src="../Attractions/Robinsons.jpg" alt="">
+                            <p>
+                                Rising up to the demand of the Negrenses for a world-class one-stop-shop mall, Robinsons Place Bacolod stands as the first full-service shopping mall in Bacolod. 
+                                Robinsons Place Bacolod is a 3-level shopping haven flourishing with over 120 local and international retail outlets, restaurants, recreation & entertainment facilities, and service centers.
+                            </p>
+                        </div>
+                        <div class="attraction-info">
+                            <h1 class="title">Robinsons Bacolod</h1>
+                            <p>Shopping Mall</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="map-text">
+        <div class="bacolod-title">
+            <p>Tourist Spots and Attractions</p>
+            <h1>MAP</h1>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <section class="map-section">
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62738.21736032992!2d122.96052842808005!3d10.64634016557719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33aed1aede61785b%3A0xea7972541b89f76b!2sBacolod%2C%20Negros%20Occidental!5e0!3m2!1sen!2sph!4v1697478988753!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </section>
+
+    <a href="#top" class="scroll-top-btn">
+        <span class="icon-angle-up"><img src="../Resources/🦆 icon _Alternate Arrow Circle Right_color.png" alt=""></span>
+    </a>
+</body>
+<footer>
+    <div class="container">
+        <div class="footer-contents">
+            <img src="../Resources/Screenshot_2023-10-15_144016-removebg-preview.png" alt="">
+            <div class="quick-links">
+                <h1>Quick Links</h1>
+                <div class="line-2"></div>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="attraction.html">Attractions</a></li>
+                    <li><a href="delicacies.html">Delicacies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-credits">
+            <div class="line-3"></div>
+            <p>©2023MasskaraWebsite. All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+</html>

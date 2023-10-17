@@ -1,0 +1,266 @@
+@media (max-width: 1024px) {
+
+    .nav-container, 
+    .ham-nav {
+        padding: 0 64px;
+    }
+
+    .contact-info {
+        padding:  96px 0;
+    }
+
+    .container {
+        overflow: hidden;
+    }
+
+    .nav-container {
+         display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+        z-index: 999;
+    }
+
+    /*Hero*/
+
+    .hero-container {
+        gap: 64px;
+    }
+
+    .masskara-hero {
+        margin-top: 128px;
+    }
+
+    .masskara-hero h1 {
+        padding: 0;
+        font-size: var(--H3-laptop);
+    }
+
+    .masskara-hero p {
+        padding: 0;
+    }
+
+    /*home*/
+
+    .hero-container .explore-btn {
+        margin-bottom: 128px;
+    }
+
+    .video-wrapper {
+        margin: 96px auto;
+        max-width: 1000px;
+    }
+
+    .about-title h1{
+        font-size: var(--H4-laptop);
+    }
+
+    .about-info p {
+        font-size: var(--H6-laptop);
+    }
+
+    /*------------------*/
+
+    .highlight-wrapper {
+        margin-top: 64px;
+    }
+
+    .highlight-title {
+        font-size: var(--H6-laptop);
+    }
+
+    .highlight {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+
+    .colurful-mask p:nth-child(2),
+    .vibrant-street-dancing p:nth-child(2), 
+    .festive-atmosphere p:nth-child(2) {
+    font-size: var(--H6-laptop);
+    }
+
+    .explore-more-btn {
+        margin: 64px 0 128px 0;
+    }
+
+    /*******************/
+
+    .explore-bacolod-title h1,
+    .delicacies-title h1 {
+        font-size: var(--H4-laptop);
+    }
+
+    .Attractions h1 {
+        font-size: var(--H6-laptop);
+    }
+
+    /**------------*/
+
+    .delicacies-title {
+        margin: 128px 0 32px 0;
+    }
+
+    .explore-gradient {
+        margin-top: 32px;
+    }
+
+    footer {
+        margin-top: 128px;
+    }
+    
+    .footer-contents {
+        gap: 64px;
+        padding: 64px 0;
+    }
+
+    /*------------------*/
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 64px;
+    }
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .nav-container, 
+    .ham-nav {
+        padding: 0 32px;
+    }
+
+    .container {
+        padding: 0 32px;
+    }
+
+    .hero-container {
+        gap: 32px;
+    }
+
+    .masskara-hero {
+        margin-top: 96px;
+    }
+
+    .masskara-hero h1 {
+        padding: 0;
+        font-size: var(--H3-mobile);
+    }
+
+    .masskara-hero p {
+        padding: 0;
+    }
+
+    /*home*/
+
+    .hero-container .explore-btn {
+        margin-bottom: 64px;
+        width: 226px;
+    }
+
+    .video-wrapper {
+        margin: 64px auto;
+        max-width: 1200px;
+    }
+
+    .about-title h1{
+        font-size: var(--H4-mobile);
+    }
+
+    .about-info p {
+        font-size: 0.9rem;
+    }
+
+    /*------------------*/
+
+    .highlight-wrapper {
+        margin-top: 64px;
+    }
+
+    .highlight-title {
+        font-size: var(--H6-laptop);
+    }
+
+    .highlight {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .colurful-mask, 
+    .vibrant-street-dancing,
+    .festive-atmosphere {
+        padding: 32px 16px;
+    }
+
+    .colurful-mask p:nth-child(2),
+    .vibrant-street-dancing p:nth-child(2), 
+    .festive-atmosphere p:nth-child(2) {
+    font-size: var(--H6-mobile);
+    }
+
+    .explore-more-btn {
+        margin: 32px 0 64px 0;
+    }
+
+    .explore-more-btn button a {
+        font-size: 1rem;
+    }
+
+    /*******************/
+
+    .explore-bacolod-title h1,
+    .delicacies-title h1 {
+        font-size: var(--H4-mobile);
+    }
+
+    .explore-bacolod-grid-1,
+    .explore-bacolod-grid-2 {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+
+    .Attractions h1 {
+        font-size: 0.9rem;
+    }
+
+    /**------------*/
+
+    .delicacies-title {
+        margin: 96px 0 32px 0;
+    }
+
+    .menu-links {
+        right: 0;
+        top: 101%;
+        width: 100%;
+        padding: 32px 0;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 3px 6px 5px rgba(59, 64, 73, 0.4);
+    }
+}
+
+@media (max-width: 400px) {
+    .nav-container, 
+    .ham-nav {
+        padding: 0 1rem;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .menu-links li a {
+        padding: 0;
+        font-size: 21px;
+        line-height: 40px;
+    }
+
+    .masskara-highlights  {
+        gap: 16px;
+    }
+}
